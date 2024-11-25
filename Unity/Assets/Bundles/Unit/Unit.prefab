@@ -24,12 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610378981859644}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114007285335791192
 MonoBehaviour:
@@ -46,4 +47,25 @@ MonoBehaviour:
   data:
   - key: Skeleton
     gameObject: {fileID: 1248987324363926, guid: 9e27b0bdab1ad7242a009899d15c0e67,
+      type: 3}
+  - key: Player
+    gameObject: {fileID: 1197902921855160, guid: b5c141ba811664e4f9730f6f4a2d4609,
+      type: 3}
+  - key: Wall
+    gameObject: {fileID: 1613927331111168, guid: 73eadea8470445a42919fc2854010296,
+      type: 3}
+  - key: River
+    gameObject: {fileID: 1430884742539468, guid: 8a0d232d76574a940ac20bfe1353c63f,
+      type: 3}
+  - key: Heart
+    gameObject: {fileID: 1986652299089866, guid: db85647268c72cc40a56330ac8d32fe9,
+      type: 3}
+  - key: Grass
+    gameObject: {fileID: 1396883925243464, guid: aca4848a64333044f91c7b602b5f71e9,
+      type: 3}
+  - key: Barriar
+    gameObject: {fileID: 1408307178967550, guid: 1ea93a97db84f1245bb247ead1b9acdf,
+      type: 3}
+  - key: AirBarriar
+    gameObject: {fileID: 1874044285443010, guid: 56f603b6161b4e449a410823da88e116,
       type: 3}

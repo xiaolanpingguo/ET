@@ -21,6 +21,7 @@ namespace ET.Client
                 //await SceneManager.LoadSceneAsync(currentScene.Name);
 
                 currentScene.AddComponent<OperaComponent>();
+                currentScene.AddComponent<ThirdPersonCameraComponent>();
             }
             catch (Exception e)
             {
